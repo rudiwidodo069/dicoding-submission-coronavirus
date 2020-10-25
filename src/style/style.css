@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+  background: #8b78e6;
+}
+
+.navbar-toggler {
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.navbar-toggler > span {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* jumbotron */
+.jumbotron {
+  background: linear-gradient(#8b78e6, #3c40c6);
+  min-height: 660px;
+  margin-top: -2vh;
+}
+
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6 > h1 {
+  font-size: 40px;
+  color: #dddddd;
+}
+
+/*  */
+.box-card {
+  margin-top: -15vh;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.card-info {
+  border: 2px solid #ddd;
+  text-align: center;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  padding: 0px;
+  margin: 10px;
+  height: 200px;
+}
+
+.card-info > .card-content > h3 {
+  line-height: 100px;
+}
+
+/* chart */
+.chart {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.chart > h1 {
+  margin-bottom: 30px;
+}
+
+/* warning */
+.warning {
+  margin-top: 40px;
+}
+
+.card-warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-8 > h3 {
+  font-size: 30px;
+}
+.col-md-8 > p {
+  font-size: 20px;
+}
+
+/* footer */
+.footer-component {
+  background: #8b78e6;
+  height: 60px;
+}
+
+.footer-component > p {
+  line-height: 60px;
+  font-size: 20px;
+  color: #ddd;
+}
